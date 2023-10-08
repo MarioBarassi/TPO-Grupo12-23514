@@ -104,6 +104,7 @@ main {
 #logo-rotativo:hover {
     rotate: 375deg;
     transition-duration: 280ms;
+    transform: scale(1.5);
 }
 
 .limitar-alto {
