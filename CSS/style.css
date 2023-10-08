@@ -1,24 +1,31 @@
 * {
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
-body{
+
+body {
     background-color: #ffeead;
 }
-html{
+
+html {
     font-size: 1rem;
     height: 100%;
 }
-body, header, main, footer {
+
+body,
+header,
+main,
+footer {
     border: 3px red solid;
     min-height: 50px;
     margin: 0.5rem;
     min-width: 400px;
     font-family: 'Roboto', sans-serif;
 }
-.header{
+
+.header {
     background-color: #96ceb4;
     display: flex;
     justify-content: space-between;
@@ -26,33 +33,41 @@ body, header, main, footer {
     height: 100px;
     padding: 5px 10%;
 }
-.header-logo img{
+
+.header-logo img {
     height: 100px;
     width: auto;
-    transition: all 0,8s;
+    transition: all 0, 8s;
 }
-.header .header-logo{
+
+.header .header-logo {
     cursor: pointer;
 }
-.header .header-logo img:hover{
+
+.header .header-logo img:hover {
     transform: scale(1.1)
 }
-.header .nav-links{
+
+.header .nav-links {
     list-style: none;
 }
-.header .nav-links li{
+
+.header .nav-links li {
     display: inline-block;
     padding: 0 15px;
 }
-.header .nav-links li:hover{
+
+.header .nav-links li:hover {
     transform: scale(1.1);
 }
-.header .nav-links a{
+
+.header .nav-links a {
     text-decoration: none;
     font-size: 700;
     color: white;
 }
-.header .nav-links li a:hover{
+
+.header .nav-links li a:hover {
     color: #ffcc5c;
 }
 
@@ -61,6 +76,115 @@ main {
     min-height: 350px;
 }
 
-footer {
-    background-color: #96ceb4;
+
+.footer-texto {
+    text-decoration: none;
+    font-size: 700;
+    color: white;
+    cursor: default;
+}
+
+.footer-texto:hover {
+    transform: scale(1.1);
+    color: #96ceb4;
+}
+
+/*Aca empieza lo agregado por german*/
+
+#logo-rotativo {
+    position: relative;
+    right: 30px;
+    bottom: 40px;
+    height: 60px;
+    width: 60px;
+    rotate: 15deg;
+    transition-duration: 220ms;
+}
+
+#logo-rotativo:hover {
+    rotate: 375deg;
+    transition-duration: 280ms;
+}
+
+.limitar-alto {
+    max-height: 90px;
+}
+
+.footer-container {
+    display: flex;
+    background-color: rgb(245, 206, 105);
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-celular {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 50px;
+    z-index: 0;
+}
+
+.footer-face {
+    position: relative;
+    right: 10px;
+    bottom: 20px;
+    height: 40px;
+    width: 40px;
+    filter: drop-shadow(0 2px 3px grey);
+    z-index: 1;
+}
+
+.footer-face:hover {
+    transform: scale(1.2)
+}
+
+.footer-insta {
+
+    position: relative;
+    right: 10px;
+    bottom: 12px;
+    height: 40px;
+    width: 40px;
+    filter: drop-shadow(0 2px 3px grey);
+    z-index: 2;
+}
+
+.footer-insta:hover {
+    transform: scale(1.2)
+}
+
+.footer-x {
+
+    position: relative;
+    right: -55px;
+    bottom: 129px;
+    height: 40px;
+    width: 40px;
+    filter: drop-shadow(0 2px 3px grey);
+    z-index: 3;
+}
+
+.footer-x:hover {
+    transform: scale(1.2)
+}
+
+.footer-wsp {
+
+    position: relative;
+    right: -55px;
+    bottom: 123px;
+    height: 40px;
+    width: 40px;
+    filter: drop-shadow(0 2px 3px grey);
+    z-index: 4;
+}
+
+.footer-wsp:hover {
+    transform: scale(1.2)
 }
