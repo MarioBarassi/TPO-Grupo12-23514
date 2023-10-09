@@ -76,6 +76,7 @@ main {
     min-height: 350px;
 }
 
+/*Aca empieza lo agregado por german*/
 
 .footer-texto {
     text-decoration: none;
@@ -88,8 +89,6 @@ main {
     transform: scale(1.1);
     color: #96ceb4;
 }
-
-/*Aca empieza lo agregado por german*/
 
 #logo-rotativo {
     position: relative;
@@ -105,6 +104,12 @@ main {
     rotate: 375deg;
     transition-duration: 280ms;
     transform: scale(1.5);
+}
+
+@media screen and (max-width: 820px) {
+    #logo-rotativo {
+        display: none; /* Oculta la imagen cuando el ancho de la pantalla es menor que 820px */
+    }
 }
 
 .limitar-alto {
