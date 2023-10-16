@@ -1,3 +1,4 @@
+/* Agregado por Mario*/
 * {
     padding: 0;
     box-sizing: border-box;
@@ -75,6 +76,54 @@ footer {
 
 main {
     min-height: 350px;
+}
+
+.contenido-ppal {
+    border: 2px blue solid;
+    min-height: 180px;
+    margin: 0.5rem;
+}
+
+.contenido-aside {
+    border: 2px blue solid;
+    min-height: 180px;
+    margin: 0.5rem;
+
+}
+
+.secciones {
+    border: 2px green solid;
+    min-height: 50px;
+    margin: 0.5rem;
+}
+
+.secciones article {
+    border: 2px purple solid;
+    min-height: 20px;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secciones article>img {
+    border-radius: 5%;
+    height: auto;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.texto-inicio {
+    background-color: #96ceb4;
+    padding: 10px 12%;
+    border-radius: 40%;
+    text-align: center;
+    margin: 0.8rem;
+    color: rgb(32, 24, 24);
+    height: auto;
 }
 
 /*Aca empieza lo agregado por german*/
