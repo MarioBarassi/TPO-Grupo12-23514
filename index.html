@@ -35,7 +35,6 @@
 
 
     <main class="main">
-
         <ul class="slider">
             <li id="Resto">
                 <table>
@@ -44,6 +43,7 @@
                             <img src="./img/Pizzeria imagen.jpg" alt="Imagen1">
                         </td>
                         <td>
+                            <h1>Restó Pizzería</h1>
                             <p>“La historia comienza en 1932, cuando nuestros abuelos abren una panadería en
                                 Palermo. Habían venido en barco desde Génova, Italia.</p>
                             <p> Tenían dos hijos: Giancarlo Agustín y Gianluca José. Cuenta la historia que ahí, en
@@ -87,7 +87,26 @@
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </td>
                         <td>
-                            <div class="aside">formulario para reservar o contacto</div>
+                            <div class="aside">formulario para reservar o contacto
+                                <form>
+                                    <div>
+                                        <label for="name">Nombre</label>
+                                        <input type="text" id="name" name="nombre" placeholder="Nombre y Apellido" required>
+                                    </div>
+                                    <div>
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email" name="email" placeholder="Email" required>
+                                    </div>
+                                    <div>
+                                        <textarea name="mensaje" id="mensaje" cols="20" rows="5">Tu mensaje aquí</textarea>
+                                    </div>
+                                    <div>
+                                        <label for="fecha">Reservas</label>
+                                        <input type="date" id="fecha" name="fecha" placeholder="Tu reserva" required>
+                                    </div>
+                                    
+                                </form>
+                            </div>
                         </td>
                     </tr>
                 </table>
