@@ -47,6 +47,11 @@ ul.slider li:target {
     /*Mostramos el <li> del enlace que pulsemos*/
 }
 
+ul.slider li:first-child {
+    opacity: 1;
+    /*Mostramos el primer <li>*/
+}
+
 table {
     display: flex;
     justify-content: space-between;
