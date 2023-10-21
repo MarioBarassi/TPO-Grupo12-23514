@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante TPO</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/slider.css">
 
     <!--icono pagina-->
     <link rel="shortcut icon" href="./img/porcion de pizza.png" type="image/x-icon">
@@ -21,37 +22,87 @@
         <!--Aqui para el logo-->
         <nav class="header-menu">
             <ul class="nav-links">
-                <li><a href="">Restó</a></li>
-                <li><a href="">Nosotros</a></li>
-                <li><a href="">Delicias</a></li>
-                <li><a href="">Contacto</a></li>
+                <li><a href="#Resto" default>Restó</a></li>
+                <li><a href="#Nosotros">Nosotros</a></li>
+                <li><a href="#Delicias">Delicias</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="contenido-ppal">
-            <section class="secciones">
-                <article>
-                    <img src="/img/Pizzeria imagen.jpg" alt="Pizzeria">
-                    <div class="texto-inicio">
-                        <h1>Restó Pizzería</h1>
-                        <p>“La historia comienza en 1932, cuando nuestros abuelos abren una panadería en Palermo. Habían venido en barco desde Génova, Italia. Tenían dos hijos: Giancarlo Agustín y Gianluca José. Cuenta la historia que ahí, en el horno de la panadería, se hicieron las primeras pizzas de Buenos Aires. Unos años después fue tomando forma el restaurante”</p>
-                    </div>
-                </article>
-            </section>
-            <section class="secciones">
 
-            </section>
-        </div>
-        <aside class="contenido-aside">
 
-        </aside>
+
+
+
+    <main class="main">
+
+        <ul class="slider">
+            <li id="Resto">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./img/Pizzeria imagen.jpg" alt="Imagen1">
+                        </td>
+                        <td>
+                            <p>“La historia comienza en 1932, cuando nuestros abuelos abren una panadería en
+                                Palermo. Habían venido en barco desde Génova, Italia.</p>
+                            <p> Tenían dos hijos: Giancarlo Agustín y Gianluca José. Cuenta la historia que ahí, en
+                                el horno de la panadería, se hicieron las primeras pizzas de Buenos Aires.</p>
+                            <p> Unos años después fue tomando forma el restaurante”</p>
+                        </td>
+                    </tr>
+                </table>
+            </li>
+            <li id="Nosotros">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./img/foto2.jpg" alt="Imagen2">
+                        </td>
+                        <td>
+                            <p>nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros nosotros </p>
+                        </td>
+                    </tr>
+                </table>
+            </li>
+            <li id="Delicias">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./img/foto3.jpg" alt="Imagen3">
+                        </td>
+                        <td>
+                            <p>delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias delicias </p>
+                        </td>
+                    </tr>
+                </table>
+            </li>
+            <li id="Contacto">
+                <table>
+                    <tr>
+                        <td>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12871.100023526422!2d-157.81734248629027!3d21.28475844085963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c006d7bcbb097e9%3A0xf3a492031e4c46f0!2sMud%20Hen%20Water!5e0!3m2!1ses!2sar!4v1697912774830!5m2!1ses!2sar"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </td>
+                        <td>
+                            <div class="aside">formulario para reservar o contacto</div>
+                        </td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
     </main>
+
+
+
+
     <footer class="footer-container">
         <div>
             <h6 class="footer-texto">Restaurante Grupo 12</h6>
         </div>
-        <div class="limitar">
+        <div class="footer-derecha">
             <div><img src="./img/chat.png" alt="cell-phone" class="footer-celular"></div>
             <a href="http://facebook.com" target="_blank"><img src="./img/face.png" alt="Facebook"
                     class="footer-face"></a>
@@ -62,6 +113,7 @@
                     class="footer-wsp"></a>
         </div>
     </footer>
+
 
 </body>
 
