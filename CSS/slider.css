@@ -1,0 +1,102 @@
+main {
+    display: flex;
+    padding: 5px 10%;
+}
+
+.slider {
+    font-family: 'roboto';
+    margin: auto;
+    width: 100%;
+    overflow: visible;
+}
+
+
+ul.slider {
+    position: relative;
+    height: 435px;
+    display: flex;
+    align-content: space-around;
+}
+
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+ul.slider img {
+    min-width: 100%;
+    height: 428px;
+    object-fit: cover;
+}
+
+ul.slider iframe {
+    min-width: 100%;
+    height: 428px;
+    object-fit: cover;
+}
+
+
+ul.slider li:target {
+    opacity: 1;
+    /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+table {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+table td:nth-child(1) {
+    width: 70%;
+    position: absolute;
+    left: 30%;
+}
+
+table td:nth-child(2) {
+    min-width: 26%;
+    max-width: 28%;
+    margin-top: 15px;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 8px;
+    color: white;
+    text-shadow: #1e352a 0px 0px 4px;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    table td:nth-child(2) {
+        min-width: 40%;
+        scale: 0.9;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    table td:nth-child(2) {
+        min-width: 50%;
+        scale: 0.9;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    table td:nth-child(2) {
+        min-width: 60%;
+        scale: 0.85;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    table td:nth-child(2) {
+        align-self: right;
+        min-width: 90%;
+        scale: 0.85;
+    }
+}
