@@ -133,6 +133,36 @@ h1 {
     height: auto;
 }
 
+/*Acá empieza el FORM agregado por Mario*/
+
+.aside{
+    background-color: rgb(122, 189, 233);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 70vh;
+}
+
+.items-form{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-content: center;
+}
+
+.enviar{
+    background-color: #0519c7;
+    color: white;
+    width: 12vw;
+    height: 7vh;
+    border-radius: 30%;
+}
+.enviar:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
 /*Aca empieza lo agregado por german*/
 
 .footer-texto {
