@@ -11,6 +11,10 @@
     <!--icono pagina-->
     <link rel="shortcut icon" href="./img/porcion de pizza.png" type="image/x-icon">
 
+    <!--Fuente de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,7 +34,7 @@
         </nav>
     </header>
 
-     <main class="main">
+    <main class="main">
         <ul class="slider">
             <li id="Resto">
                 <table>
@@ -39,7 +43,7 @@
                             <img src="./img/imagen 1.jpg" alt="Pizza">
                         </td>
                         <td>
-                            <h1>Restó Pizzería</h1>
+                            <h2>Restó Pizzería</h2>
                             <p>“La historia comienza en 1932, cuando nuestros abuelos abren una panadería en
                                 Palermo. Habían venido en barco desde Génova, Italia.</p>
                             <p> Tenían dos hijos: Giancarlo Agustín y Gianluca José. Cuenta la historia que ahí, en
@@ -57,7 +61,10 @@
                         </td>
                         <td>
                             <h2>Restó Pizzería</h2>
-                            <p>Nuestros maestros pizzeros, que cuentan con una amplia experiencia en nuestro país y en el exterior, comprenden la pasión, la emoción y los desafíos que implican una buena receta. Utilizan este conocimiento para desarrollar recetas y servicios diseñados para los más exquisitos paladares, y por supuesto, ¡aman lo que hacen!</p>
+                            <p>Nuestros maestros pizzeros, que cuentan con una amplia experiencia en nuestro país y en
+                                el exterior, comprenden la pasión, la emoción y los desafíos que implican una buena
+                                receta. Utilizan este conocimiento para desarrollar recetas y servicios diseñados para
+                                los más exquisitos paladares, y por supuesto, ¡aman lo que hacen!</p>
                         </td>
                     </tr>
                 </table>
@@ -70,7 +77,9 @@
                         </td>
                         <td>
                             <h2>Restó Pizzería</h2>
-                            <p>Te invitamos a descubrir todas nuestras exclusivas recetas, algunas tradicionales y otras inspiradas en los mas exquisitos gustos de Italia. Cuando las pruebes, ¡vas a querer volver siempre!</p>
+                            <p>Te invitamos a descubrir todas nuestras exclusivas recetas, algunas tradicionales y otras
+                                inspiradas en los mas exquisitos gustos de Italia. Cuando las pruebes, ¡vas a querer
+                                volver siempre!</p>
                         </td>
                     </tr>
                 </table>
@@ -85,22 +94,27 @@
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </td>
                         <td>
-                            <div class="aside"><h3>¡Hacé tu Reserva!</h3>
+                            <div class="formulario">
+                                <h2>¡Hacé tu Reserva!</h2>
                                 <form action="https://formspree.io/f/xgejdvyy" method="POST">
                                     <div class="items-form">
-                                        <label for="name">Nombre</label>
-                                        <input type="text" id="name" name="nombre" placeholder="Nombre y Apellido" required>
+                                        <label for="name">Nombre</label><br />
+                                        <input type="text" id="name" name="nombre" placeholder="Nombre y Apellido"
+                                            required>
                                     </div>
                                     <div class="items-form">
-                                        <label for="email">Email</label>
-                                        <input type="email" id="email" name="email" placeholder="nombre@mail.com" required>
+                                        <label for="email">Email</label><br />
+                                        <input type="email" id="email" name="email" placeholder="nombre@mail.com"
+                                            required>
                                     </div><br>
                                     <div class="items-form">
-                                        <label for="mensaje">Reserva</label>
-                                        <textarea name="mensaje" id="mensaje" cols="22" rows="5" placeholder="Solicitar día y horario" required></textarea>
+                                        <label for="mensaje">Reserva</label><br />
+                                        <textarea name="mensaje" id="mensaje" cols="18" rows="3"
+                                            placeholder="Solicitar día y horario" required></textarea>
                                     </div><br>
                                     <div>
                                         <button class="enviar" type="submit">Enviar</button>
+                                        <br /><br />
                                     </div>
                                 </form>
                             </div>
@@ -113,7 +127,7 @@
 
     <footer class="footer-container">
         <div>
-            <h6 class="footer-texto">Restó Pizzería - Copyright 2023</h6>
+            <h4 class="footer-texto">Restó Pizzería <br />Copyright 2023</h4>
         </div>
         <div class="footer-derecha">
             <div><img src="./img/chat.png" alt="cell-phone" class="footer-celular"></div>

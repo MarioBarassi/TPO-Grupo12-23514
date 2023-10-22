@@ -4,7 +4,6 @@ main {
 }
 
 .slider {
-    font-family: 'roboto';
     margin: auto;
     width: 100%;
     overflow: visible;
@@ -13,7 +12,7 @@ main {
 
 ul.slider {
     position: relative;
-    height: 435px;
+    height: 450px;
     display: flex;
     align-content: space-around;
 }
@@ -28,6 +27,7 @@ ul.slider li {
     height: inherit;
     transition: opacity .5s;
     background-color: rgb(255, 238, 173);
+    overflow: hidden;
 }
 
 ul.slider img {
@@ -42,7 +42,7 @@ ul.slider iframe {
     object-fit: cover;
 }
 
-ul.slider li:first-child{
+ul.slider li:first-child {
     opacity: 1;
 }
 
@@ -54,45 +54,73 @@ ul.slider li:target {
 table {
     display: flex;
     justify-content: space-between;
-
 }
 
 table td:nth-child(1) {
-    width: 70%;
+    width: 60%;
     position: absolute;
-    left: 30%;
+    left: 40%;
 }
 
 table td:nth-child(2) {
-    min-width: 26%;
-    max-width: 28%;
-    margin-top: 15px;
+    min-width: 35%;
+    max-width: 37%;
+    margin-top: 5px;
     position: absolute;
     text-align: center;
     background-color: rgb(255, 255, 255, 0.5);
+    box-shadow: inset 0px 0px 20px 15px rgb(246, 205, 116);
+    padding: 0px 1%;
     border-radius: 8px;
-    color: white;
-    text-shadow: #1e352a 0px 0px 4px;
-    
+    color: rgb(255, 255, 255);
+    text-shadow: #000000 2px 2px 5px;
 }
 
-@media screen and (max-width: 1200px) {
+table h2 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.8rem;
+    color: rgb(231, 182, 58);
+    text-decoration: dashed;
+    font-weight: bolder;
+    letter-spacing: -2px;
+}
+
+table p {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.4rem;
+    letter-spacing: -1px;
+}
+
+@media screen and (max-width: 1400px) {
     table td:nth-child(2) {
         min-width: 40%;
-        scale: 0.9;
+        scale: 0.90;
+    }
+
+    table td:nth-child(1) {
+        scale: 0.95;
     }
 }
+
 
 @media screen and (max-width: 900px) {
     table td:nth-child(2) {
         min-width: 50%;
-        scale: 0.9;
+        scale: 0.80;
+    }
+
+    table td:nth-child(1) {
+        scale: 0.90;
     }
 }
 
 @media screen and (max-width: 650px) {
     table td:nth-child(2) {
         min-width: 60%;
+        scale: 0.73;
+    }
+
+    table td:nth-child(1) {
         scale: 0.85;
     }
 }
@@ -101,6 +129,64 @@ table td:nth-child(2) {
     table td:nth-child(2) {
         align-self: right;
         min-width: 90%;
-        scale: 0.85;
+        scale: 0.70;
     }
+
+    table td:nth-child(1) {
+        scale: 0.8;
+    }
+}
+
+.formulario div label {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.4rem;
+    overflow: visible;
+    z-index: 5;
+    object-fit: fill;
+
+}
+
+.formulario h2 {
+    color: rgb(231, 182, 58);
+    text-decoration: dashed;
+    font-weight: bold;
+    text-shadow: 3px rgb(255, 255, 255);
+}
+
+textarea {
+    resize: none;
+    color: rgb(8, 75, 44);
+    font-family: 'Josefin Slab', serif;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(8, 75, 44);
+    font-family: 'Josefin Slab', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+::-moz-placeholder {
+    color: rgb(8, 75, 44);
+    font-family: 'Josefin Slab', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+:-ms-input-placeholder {
+    color: rgb(8, 75, 44);
+    font-family: 'Josefin Slab', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#name, #email{
+    color: rgb(8, 75, 44);
+    font-family: 'Josefin Slab', serif;
+}
+
+header a{
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.7rem;
+    letter-spacing: -1.5px;
 }
