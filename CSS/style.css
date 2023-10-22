@@ -2,7 +2,6 @@
 * {
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     list-style: none;
 }
@@ -24,10 +23,10 @@ footer {
     min-height: 50px;
     margin: 0.5rem;
     min-width: 400px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .header {
+    font-family: 'Josefin Slab', serif;
     position: relative;
     background-color: rgb(150, 206, 180);
     display: flex;
@@ -118,18 +117,19 @@ main {
 
 h1 {
     color: rgb(54, 24, 24);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Josefin Slab', serif;
     font-size: 25px;
 }
 
 h2 {
     color: rgb(54, 24, 24);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Josefin Slab', serif;
     font-size: 25px;
 }
 
 
 .texto-inicio {
+    font-family: 'Josefin Slab', serif;
     background-color: #96ceb4;
     padding: 10px 12%;
     border-radius: 40%;
@@ -142,7 +142,7 @@ h2 {
 
 /*Acá empieza el FORM agregado por Mario*/
 
-.aside{
+.aside {
     background-color: rgb(122, 189, 233);
     border-radius: 20px;
     display: flex;
@@ -151,19 +151,24 @@ h2 {
     height: 70vh;
 }
 
-.items-form{
-    font-family: Arial, Helvetica, sans-serif;
+.items-form {
+    font-family: 'Josefin Slab', serif;
     justify-content: center;
     align-content: center;
 }
 
-.enviar{
-    background-color: #0519c7;
+.enviar {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.4rem;
+    letter-spacing: -2;
     color: white;
     width: 12vw;
-    height: 7vh;
-    border-radius: 30%;
+    height: 5vh;
+    background-color: rgb(231, 182, 58);
+    border-radius: 7px;
+    border-color: #ffcc5c;
 }
+
 .enviar:hover {
     transform: scale(1.1);
     cursor: pointer;
@@ -173,13 +178,22 @@ h2 {
 /*Aca empieza lo agregado por german*/
 
 .footer-texto {
+    font-family: 'Josefin Slab', serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    letter-spacing: -1px;
     color: white;
     cursor: default;
+    text-align: center;
+    align-items: center;
+    text-shadow: 1px 1px 5px rgb(153, 114, 16);
+    font-weight: normal;
 }
 
 .footer-texto:hover {
     transform: scale(1.1);
-    color: #96ceb4;
+    color: #74c49e;
+    font-weight: bold;
 }
 
 #logo-rotativo {
@@ -205,14 +219,14 @@ h2 {
 
 .footer-container {
     display: flex;
-    background-color: rgb(245, 206, 105);
+    background-color: rgb(240, 211, 136);
     justify-content: space-between;
     padding: 5px 10%;
     max-height: 120px;
     overflow: hidden;
     box-shadow: inset 0px 0px 15px 10px rgb(231, 182, 58);
     border-radius: 7px;
-    text-shadow: 1px 1px 5px rgb(153, 114, 16);
+
 }
 
 .footer-celular {
