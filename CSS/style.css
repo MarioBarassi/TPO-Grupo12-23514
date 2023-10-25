@@ -1,7 +1,7 @@
 /* Agregado por Mario*/
 * {
     padding: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     font-size: 20px;
     list-style: none;
 }
@@ -19,7 +19,6 @@ body,
 header,
 main,
 footer {
-
     min-height: 50px;
     margin: 0.5rem;
     min-width: 400px;

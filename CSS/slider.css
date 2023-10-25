@@ -28,6 +28,7 @@ ul.slider li {
     transition: opacity .5s;
     background-color: rgb(255, 238, 173);
     overflow: hidden;
+    z-index: -5;
 }
 
 ul.slider img {
@@ -44,11 +45,12 @@ ul.slider iframe {
 
 ul.slider li:first-child {
     opacity: 1;
+    z-index: 1;
 }
 
 ul.slider li:target {
     opacity: 1;
-    /*Mostramos el <li> del enlace que pulsemos*/
+    z-index: 15;
 }
 
 table {
