@@ -15,23 +15,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+
+
+
 </head>
 
 <body>
     <header class="header">
+        <!--Aqui para el logo-->
         <div class="header-logo">
             <img src="./img/pizza grande completa.png" alt="logo Restaurante">
             <img src="./img/cocinero.png" alt="logo Restaurante" id="logo-rotativo">
         </div>
-        <!--Aqui para el logo-->
-        <nav class="header-menu">
-            <ul class="nav-links">
+
+        <button id="abrir" class="abrir-menu"><img src="./img/menu.png" alt=""></button>
+        <nav id="nav" class="nav">
+            <button class="cerrar-menu" id="cerrar"><img src="./img/cerrar.png" alt=""></i></button>
+            <ul class="nav-list">
                 <li><a href="#Resto" default>Restó</a></li>
                 <li><a href="#Nosotros">Nosotros</a></li>
                 <li><a href="#Delicias">Delicias</a></li>
                 <li><a href="#Contacto">Contacto</a></li>
             </ul>
         </nav>
+
+
     </header>
 
     <main class="main">
@@ -43,12 +51,14 @@
                             <img src="./img/imagen 1.jpg" alt="Pizza">
                         </td>
                         <td>
-                            <h2>Restó Pizzería</h2>
-                            <p>“La historia comienza en 1932, cuando nuestros abuelos abren una panadería en
-                                Palermo. Habían venido en barco desde Génova, Italia.</p>
-                            <p> Tenían dos hijos: Giancarlo Agustín y Gianluca José. Cuenta la historia que ahí, en
-                                el horno de la panadería, se hicieron las primeras pizzas de Buenos Aires.</p>
-                            <p> Unos años después fue tomando forma el restaurante”</p>
+                            <div>
+                                <h2>Restó Pizzería</h2>
+                                <p>La historia comienza en 1932, cuando nuestros abuelos abren una panadería en
+                                    Palermo. Habían venido en barco desde Génova, Italia.</p>
+                                <p> Tenían dos hijos: Giancarlo Agustín y Gianluca José. Cuenta la historia que ahí, en
+                                    el horno de la panadería, se hicieron las primeras pizzas de Buenos Aires.</p>
+                                <p> Unos años después fue tomando forma el restaurante.</p>
+                            </div>
                         </td>
                     </tr>
                 </table>
@@ -60,7 +70,7 @@
                             <img src="./img/nosotros.jpg" alt="Imagen2">
                         </td>
                         <td>
-                            <h2>Restó Pizzería</h2>
+                            <h2>Nosotros</h2>
                             <p>Nuestros maestros pizzeros, que cuentan con una amplia experiencia en nuestro país y en
                                 el exterior, comprenden la pasión, la emoción y los desafíos que implican una buena
                                 receta. Utilizan este conocimiento para desarrollar recetas y servicios diseñados para
@@ -76,7 +86,7 @@
                             <img src="./img/delicias.jpg" alt="Delicias">
                         </td>
                         <td>
-                            <h2>Restó Pizzería</h2>
+                            <h2>Delicias</h2>
                             <p>Te invitamos a descubrir todas nuestras exclusivas recetas, algunas tradicionales y otras
                                 inspiradas en los mas exquisitos gustos de Italia. Cuando las pruebes, ¡vas a querer
                                 volver siempre!</p>
@@ -106,7 +116,7 @@
                                         <label for="email">Email</label><br />
                                         <input type="email" id="email" name="email" placeholder="nombre@mail.com"
                                             required>
-                                    </div><br>
+                                    </div>
                                     <div class="items-form">
                                         <label for="mensaje">Reserva</label><br />
                                         <textarea name="mensaje" id="mensaje" cols="18" rows="3"
@@ -141,6 +151,7 @@
         </div>
     </footer>
 
+    <script src="./script/hamb.js"></script>
 
 </body>
 
