@@ -106,21 +106,20 @@
                         <td>
                             <div class="formulario">
                                 <h2>¡Hacé tu Reserva!</h2>
-                                <form action="https://formspree.io/f/xgejdvyy" method="POST">
+                                <form onsubmit="return validarFormulario()" action="https://formspree.io/f/xgejdvyy" method="POST">
                                     <div class="items-form">
                                         <label for="name">Nombre</label><br />
-                                        <input type="text" id="name" name="nombre" placeholder="Nombre y Apellido"
-                                            required>
+                                        <input type="text" id="name" name="nombre" placeholder="Nombre y Apellido">
                                     </div>
                                     <div class="items-form">
                                         <label for="email">Email</label><br />
-                                        <input type="email" id="email" name="email" placeholder="nombre@mail.com"
-                                            required>
+                                        <input type="email" id="email" name="email" placeholder="nombre@mail.com">
+                                            
                                     </div>
                                     <div class="items-form">
                                         <label for="mensaje">Reserva</label><br />
                                         <textarea name="mensaje" id="mensaje" cols="18" rows="3"
-                                            placeholder="Solicitar día y horario" required></textarea>
+                                            placeholder="Solicitar día y horario"></textarea>
                                     </div><br>
                                     <div>
                                         <button class="enviar" type="submit">Enviar</button>

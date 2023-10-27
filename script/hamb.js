@@ -11,3 +11,30 @@ cerrar.addEventListener("click", () => {
     nav.classList.remove("visible");
     abrir.classList.remove("invisible");
 })
+
+//Acá agregado por Mario para validar formulario//
+
+function validarFormulario(){
+    let nombre = document.getElementById("name").value.trim();
+
+    if(nombre === ""){
+        alert("Por favor complete todos los espacios requeridos")
+        return false
+    }
+}
+function validarFormulario(){
+    let email = document.getElementById("email").value.trim();
+
+    if(email === ""){
+        alert("Por favor complete todos los espacios requeridos")
+        return false
+    }
+}
+function validarFormulario(){
+    let mensaje = document.getElementById("mensaje").value.trim();
+
+    if(mensaje === ""){
+        alert("Por favor complete todos los espacios requeridos")
+        return false
+    }
+}
