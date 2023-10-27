@@ -5,3 +5,5 @@ Cambie los estilos del formulario, la fuente, mejore el responsive, y cambios me
 -------
 Banda de cambios, casi siempre para arreglar bugs
 Menu hamburguesa con javascript
+-------
+Se agrega validación de formulario con javascript y detalles menores.
