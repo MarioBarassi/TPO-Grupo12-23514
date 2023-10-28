@@ -12,7 +12,7 @@ cerrar.addEventListener("click", () => {
     abrir.classList.remove("invisible");
 })
 
-//Acá agregado por Mario para validar formulario//
+//Validación formulario//
 
 function validarFormulario(){
     let nombre = document.getElementById("name").value.trim();

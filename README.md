@@ -7,3 +7,5 @@ Banda de cambios, casi siempre para arreglar bugs
 Menu hamburguesa con javascript
 -------
 Se agrega validación de formulario con javascript y detalles menores.
+-------
+Últimos detalles. Agregué contenidos para que queden simétricos.
